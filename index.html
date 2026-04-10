@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -994,21 +994,6 @@
   </div>
 </nav>
 
-<!-- IFRAME VIEW (loads nav link pages) -->
-<div id="iframeView" style="display:none; flex-direction:column; height:calc(100vh - 66px);">
-  <div id="iframeToolbar" style="display:flex;align-items:center;gap:0.6rem;padding:0.5rem 1rem;background:#f2f7f8;border-bottom:1px solid #d5e3e8;font-family:'Barlow',sans-serif;">
-    <button id="iframeBack" title="Back" style="background:none;border:1px solid #d5e3e8;border-radius:3px;padding:0.28rem 0.55rem;cursor:pointer;font-size:0.85rem;color:#364b5a;transition:background 0.15s;" onmouseover="this.style.background='#e6f7f7'" onmouseout="this.style.background='none'">&#8592; Back</button>
-    <button id="iframeForward" title="Forward" style="background:none;border:1px solid #d5e3e8;border-radius:3px;padding:0.28rem 0.55rem;cursor:pointer;font-size:0.85rem;color:#364b5a;transition:background 0.15s;" onmouseover="this.style.background='#e6f7f7'" onmouseout="this.style.background='none'">&#8594;</button>
-    <button id="iframeRefresh" title="Refresh" style="background:none;border:1px solid #d5e3e8;border-radius:3px;padding:0.28rem 0.55rem;cursor:pointer;font-size:0.85rem;color:#364b5a;transition:background 0.15s;" onmouseover="this.style.background='#e6f7f7'" onmouseout="this.style.background='none'">&#8635;</button>
-    <span id="iframeUrl" style="flex:1;font-size:0.72rem;color:#6b8496;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 0.3rem;"></span>
-    <button id="iframeOpenTab" title="Open in new tab" style="background:none;border:1px solid #d5e3e8;border-radius:3px;padding:0.28rem 0.6rem;cursor:pointer;font-size:0.78rem;color:#0d7377;font-weight:600;white-space:nowrap;transition:background 0.15s;" onmouseover="this.style.background='#e6f7f7'" onmouseout="this.style.background='none'">&#x2197; Open Tab</button>
-    <button id="iframeClose" title="Back to Portfolio" style="background:#0d7377;border:none;border-radius:3px;padding:0.28rem 0.75rem;cursor:pointer;font-size:0.75rem;color:#fff;font-weight:600;letter-spacing:0.05em;white-space:nowrap;transition:background 0.15s;" onmouseover="this.style.background='#085e62'" onmouseout="this.style.background='#0d7377'">&#x2715; Portfolio</button>
-  </div>
-  <iframe id="mainIframe" src="" style="flex:1;width:100%;border:none;background:#fff;" allowfullscreen></iframe>
-</div>
-
-<!-- PAGE CONTENT (our portfolio) -->
-<div id="pageContent">
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
@@ -1247,7 +1232,5 @@ document.getElementById('navHamburger').addEventListener('click', function() {
   }
 });
 </script>
-</div>
-
 </body>
 </html>
